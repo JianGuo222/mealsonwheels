@@ -27,12 +27,14 @@
 
     <preference name="target-device" value="handset" />
 
-    <preference name="fullscreen" value="true" />
-
+     
     <icon src="icon.png" />
 
      
     <gap:plugin name="com.phonegap.plugin.statusbar" version="1.1.0" />
+    <gap:plugin name="org.apache.cordova.splashscreen" version="0.2.7" />
+
+    <preference name="splashscreen" value="screen" />
      
 </widget>
 
