@@ -41,5 +41,8 @@
         <false/>
     </gap:config-file>
  
+    <feature name="SplashScreen">
+        <param name="ios-package" value="CDVSplashScreen" />
+    </feature>
 </widget>
 
