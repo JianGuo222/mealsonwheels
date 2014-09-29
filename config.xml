@@ -21,9 +21,13 @@
     <gap:platform name="android" />
     <gap:platform name="winphone" />
 
+    <preference name="phonegap-version" value="3.5.0" />
+
     <preference name="orientation" value="portrait" />
 
     <preference name="target-device" value="handset" />
+
+    <preference name="fullscreen" value="true" />
 
     <icon src="icon.png" />
 
