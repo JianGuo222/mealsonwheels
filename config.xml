@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
-    id          = "com.phonegap.example"
+    id          = "com.mealsonwheels.app"
     versionCode = "10" 
     version     = "1.0.0" >
 
     <!-- versionCode is optional and Android only -->
 
-    <name>Meals on Wheels</name>
+    <name>美食宅急送</name>
 
     <description>
         This is a food delivery application. 
