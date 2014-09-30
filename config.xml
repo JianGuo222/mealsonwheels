@@ -28,10 +28,16 @@
     <feature name="StatusBar">
         <param name="ios-package" value="CDVStatusBar" onload="true" />
     </feature>
- 
-    <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance">
+
+    <gap:config-file platform="ios" parent="UIStatusBarHidden">
         <true/>
     </gap:config-file>
+
+    <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance">
+        <false/>
+    </gap:config-file>
+
+    <preference name="fullscreen" value="true" />
 
     <gap:plugin name="org.apache.cordova.splashscreen" version="0.3.3" />
     <preference name="SplashScreen" value="screen" /> 
