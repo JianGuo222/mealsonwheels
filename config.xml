@@ -16,15 +16,18 @@
     <preference name="target-device" value="handset" />
     <preference name="webviewbounce" value="true" /> 
     <preference name="stay-in-webview" value="true" />
-      
+
     <preference name="android-targetSdkVersion" value="14" />
-     
-     
+
+
     <gap:platform name="ios" />
     <gap:platform name="android" />
 
-    
+
     <gap:plugin name="com.phonegap.plugin.statusbar" version="1.1.0" />
+    <feature name="StatusBar">
+        <param name="ios-package" value="CDVStatusBar" onload="true" />
+    </feature>
 
     <gap:config-file platform="ios" parent="UIStatusBarHidden">
         <true/>
@@ -34,7 +37,8 @@
         <false/>
     </gap:config-file>
 
-    <icon src="icon.png" />
-    <gap:splash src="splash.png" />
+    <gap:plugin name="org.apache.cordova.splashscreen" version="0.3.3" />
+    <preference name="SplashScreen" value="screen" /> 
+    <preference name="SplashScreenDelay" value="3000" />
 </widget>
- 
+
