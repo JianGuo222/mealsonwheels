@@ -27,21 +27,20 @@
     <gap:plugin name="com.phonegap.plugin.statusbar" version="1.1.0" />
     
 
-    <platform name="android">
-        <!-- you can use any density that exists in the Android project -->
+    <!-- you can use any density that exists in the Android project -->
 
-        <splash src="res/screens/android/screen-hdpi-portrait.png" density="port-hdpi"/>
-        <splash src="res/screens/android/screen-ldpi-portrait.png" density="port-ldpi"/>
-        <splash src="res/screens/android/screen-mdpi-portrait.png" density="port-mdpi"/>
-        <splash src="res/screens/android/screen-xhdpi-portrait.png" density="port-xhdpi"/>
-    </platform>
+    <gap:splash gap:platform="android" src="res/screens/android/screen-hdpi-portrait.png" gap:density="port-hdpi"/>
+    <gap:splash gap:platform="android" src="res/screens/android/screen-ldpi-portrait.png" gap:density="port-ldpi"/>
+    <gap:splash gap:platform="android" src="res/screens/android/screen-mdpi-portrait.png" gap:density="port-mdpi"/>
+    <gap:splash gap:platform="android" src="res/screens/android/screen-xhdpi-portrait.png" gap:density="port-xhdpi"/>
 
-    <platform name="ios">
-        <!-- images are determined by width and height. The following are supported -->
-        <splash src="res/screens/ios/screen-iphone-portrait.png" width="320" height="480"/>
-        <splash src="res/screens/ios/screen-iphone-portrait-2x.png" width="640" height="960"/> 
-        <splash src="res/screens/ios/screen-iphone-portrait-568h-2x.png" width="640" height="1136"/>
-    </platform>
+
+    
+    <!-- images are determined by width and height. The following are supported -->
+    <gap:splash gap:platform="ios" src="res/screens/ios/screen-iphone-portrait.png" width="320" height="480"/>
+    <gap:splash gap:platform="ios" src="res/screens/ios/screen-iphone-portrait-2x.png" width="640" height="960"/> 
+    <gap:splash gap:platform="ios" src="res/screens/ios/screen-iphone-portrait-568h-2x.png" width="640" height="1136"/>
+    
 
     <preference name="SplashScreenDelay" value="10000" />
 </widget>
