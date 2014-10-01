@@ -25,19 +25,7 @@
 
 
     <gap:plugin name="com.phonegap.plugin.statusbar" version="1.1.0" />
-    <feature name="StatusBar">
-        <param name="ios-package" value="CDVStatusBar" onload="true" />
-    </feature>
-
-    <gap:config-file platform="ios" parent="UIStatusBarHidden">
-        <true/>
-    </gap:config-file>
-
-    <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance">
-        <false/>
-    </gap:config-file>
-
-    <preference name="fullscreen" value="true" />
+    
 
     <platform name="android">
         <!-- you can use any density that exists in the Android project -->
@@ -54,5 +42,7 @@
         <splash src="res/screens/ios/screen-iphone-portrait-2x.png" width="640" height="960"/> 
         <splash src="res/screens/ios/screen-iphone-portrait-568h-2x.png" width="640" height="1136"/>
     </platform>
+
+    <preference name="SplashScreenDelay" value="10000" />
 </widget>
 
