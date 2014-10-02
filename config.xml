@@ -34,14 +34,15 @@
     <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance">
         <false/>
     </gap:config-file>
-
+    
+    <gap:splash src="splash.png" />
     <!-- you can use any density that exists in the Android project -->
 
     <gap:splash gap:platform="android" src="res/screens/android/screen-hdpi-portrait.png" gap:density="port-hdpi"/>
     <gap:splash gap:platform="android" src="res/screens/android/screen-ldpi-portrait.png" gap:density="port-ldpi"/>
     <gap:splash gap:platform="android" src="res/screens/android/screen-mdpi-portrait.png" gap:density="port-mdpi"/>
     <gap:splash gap:platform="android" src="res/screens/android/screen-xhdpi-portrait.png" gap:density="port-xhdpi"/>
-    <preference name="splash-screen-duration" value="10000" />
+
 
     
     <!-- images are determined by width and height. The following are supported -->
@@ -49,6 +50,6 @@
     <gap:splash gap:platform="ios" src="res/screens/ios/screen-iphone-portrait-2x.png" width="640" height="960"/> 
     <gap:splash gap:platform="ios" src="res/screens/ios/screen-iphone-portrait-568h-2x.png" width="640" height="1136"/>
     
- 
+    
 </widget>
 
