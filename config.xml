@@ -41,7 +41,7 @@
     <gap:splash gap:platform="android" src="res/screens/android/screen-ldpi-portrait.png" gap:density="port-ldpi"/>
     <gap:splash gap:platform="android" src="res/screens/android/screen-mdpi-portrait.png" gap:density="port-mdpi"/>
     <gap:splash gap:platform="android" src="res/screens/android/screen-xhdpi-portrait.png" gap:density="port-xhdpi"/>
-
+    <preference name="splash-screen-duration" value="10000" />
 
     
     <!-- images are determined by width and height. The following are supported -->
@@ -49,7 +49,6 @@
     <gap:splash gap:platform="ios" src="res/screens/ios/screen-iphone-portrait-2x.png" width="640" height="960"/> 
     <gap:splash gap:platform="ios" src="res/screens/ios/screen-iphone-portrait-568h-2x.png" width="640" height="1136"/>
     
-
-    <preference name="SplashScreenDelay" value="20000" />
+ 
 </widget>
 
