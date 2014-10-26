@@ -3,7 +3,7 @@
     xmlns:gap = "http://phonegap.com/ns/1.0"
     id        = "com.jianguo.mealsonwheels"
     versionCode="1"
-    version   = "1.0.1">
+    version   = "1.0.2">
     <name>美食宅急送</name>
     <description>
         This is a food delivery app.       
