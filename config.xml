@@ -3,10 +3,10 @@
     xmlns:gap = "http://phonegap.com/ns/1.0"
     id        = "com.jianguo.mealsonwheels"
     versionCode="1"
-    version   = "1.0.2">
+    version   = "1.0.1">
     <name>美食宅急送</name>
     <description>
-        This is a food delivery app.       
+        美食宅急送是一款面向澳大利亚的免费订餐、送餐手机应用程序。     
     </description>
     <author href="www.jianguo.com.au" email="info@jianguo.com.au">
         Jian Guo
