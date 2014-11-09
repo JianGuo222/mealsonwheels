@@ -2,8 +2,8 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://phonegap.com/ns/1.0"
     id        = "com.jianguo.mealsonwheels"
-    versionCode="1"
-    version   = "1.0.1">
+    versionCode="3"
+    version   = "1.0.3">
     <name>美食宅急送</name>
     <description>
         美食宅急送是一款面向澳大利亚的免费订餐、送餐手机应用程序。     
