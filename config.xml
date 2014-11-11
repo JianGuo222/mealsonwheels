@@ -50,6 +50,6 @@
     <gap:splash gap:platform="ios" src="res/screens/ios/screen-iphone-portrait-2x.png" width="640" height="960"/> 
     <gap:splash gap:platform="ios" src="res/screens/ios/screen-iphone-portrait-568h-2x.png" width="640" height="1136"/>
     
-    
+    <access origin="*" />
 </widget>
 
