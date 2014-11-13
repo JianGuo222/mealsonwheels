@@ -4,7 +4,7 @@
     id        = "com.jianguo.mealsonwheels"
     versionCode="3"
     version   = "1.0.3">
-    <name>test</name>
+    <name>美食宅急送</name>
     <description>
         美食宅急送是一款面向澳大利亚的免费订餐、送餐手机应用程序。     
     </description>
@@ -18,7 +18,7 @@
     <preference name="stay-in-webview" value="true" />
 
     <preference name="android-targetSdkVersion" value="14" />
-
+    <preference name="InAppBrowserStorageEnabled" value="true"/>
 
     <gap:platform name="ios" />
     <gap:platform name="android" />
