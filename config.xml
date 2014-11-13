@@ -18,7 +18,7 @@
     <preference name="stay-in-webview" value="true" />
 
     <preference name="android-targetSdkVersion" value="14" />
-    <preference name="InAppBrowserStorageEnabled" value="true"/>
+
 
     <gap:platform name="ios" />
     <gap:platform name="android" />
